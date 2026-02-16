@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # ==========================================
 # Replace 'YOUR_API_KEY' with your actual Gemini API key, 
 # or set it in your environment variables before running the script.
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "AIzaSyD__qT1sElYgxtfKab8hZUiEjOCYOBn0eg")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "YOUR_API_KEYS")
 os.environ["CREWAI_DEFAULT_LLM"] = "gemini/gemini-2.5-flash"
 
 # Initialize the Gemini model
